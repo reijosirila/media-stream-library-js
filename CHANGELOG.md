@@ -2,65 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
-## v8.0.3 (2020-11-08 16:50:39 +0100)
-
-## v8.0.2 (2020-11-08 16:45:20 +0100)
-
-### Bug fixes
-
-  - use npm for publishing
-
-## v8.0.1 (2020-11-08 16:39:49 +0100)
-
-### Bug fixes
-
-  - use correct bundle name in publish workflow
-
-## v8.0.0 (2020-11-08 16:26:34 +0100)
+## v (2020-12-07 16:47:56 +0200)
 
 ### Features
 
   - Yarn v2 with Pnp support and zero-install
-
-## v7.2.0 (2020-11-04 09:36:04 +0100)
-
-### Features
-
   - add tracks to html5 video pipeline
-
-## v7.1.0 (2020-10-30 14:23:45 +0100)
-
-### Features
-
   - streaming MP4 over HTTP
 
-### Bug fixes
-
-  - explicitly include fallback polyfills
-  - export message types
-
-## v7.0.6 (2020-10-10 10:20:34 +0200)
-
-### Bug fixes
-
-  - prevent process exit on parse error
-
-## v7.0.5 (2020-10-02 16:38:11 +0200)
-
-### Bug fixes
+### Features
 
   - debug no longer ships dist/debug.js
+  - explicitly include fallback polyfills
+  - export message types
+  - prevent process exit on parse error
   - replace deprecated component in overlay examples
+  - try publishing with yarn
+  - use correct bundle name in publish workflow
+  - use npm for publishing
 
 ## v7.0.4 (2020-05-04 14:00:54 +0200)
 
-### Bug fixes
+### Features
 
-  - allow lower-case header names as per RFC spec
-  - move md5.js to dependencies
-  - re-format with latest prettier version
   - do not close socket on inactivity
   - subscribe to correct event
+  - move md5.js to dependencies
+  - allow lower-case header names as per RFC spec
+  - re-format with latest prettier version
 
 ## v7.0.3 (2020-03-10 21:45:45 +0100)
 
@@ -68,16 +37,16 @@ All notable changes to this project will be documented in this file.
 
 ## v7.0.1 (2020-02-28 16:56:22 +0100)
 
-### Bug fixes
+### Features
 
   - update H.264 parser unit tests
 
 ## v7.0.0 (2020-02-06 20:26:44 +0100)
 
-### Bug fixes
+### Features
 
-  - comment instead of empty arrow function
   - *BREAKING* MetadataPipeline stops working after a while
+  - comment instead of empty arrow function
   - pass proper type to connect function
   - reformat using prettier
   - use union Message type for MessageHandler
@@ -96,19 +65,19 @@ All notable changes to this project will be documented in this file.
 
   - convenience pipeline to extract SDP
 
-### Bug fixes
+### Features
 
   - correct wrong SDP types
 
 ## v6.0.5 (2019-12-19 08:24:49 +0100)
 
-### Bug fixes
+### Features
 
   - only clear buffer before last I-frame
 
 ## v6.0.4 (2019-11-22 07:07:49 +0100)
 
-### Bug fixes
+### Features
 
   - use proper types for the canvas context
 
@@ -118,7 +87,7 @@ All notable changes to this project will be documented in this file.
 
 ## v6.0.1 (2019-07-23 22:18:56 +0200)
 
-### Bug fixes
+### Features
 
   - ES5 support
   - initialize ONVIF packets array
